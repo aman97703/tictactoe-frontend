@@ -1,0 +1,20 @@
+.board:nth-child(1),
+.board:nth-child(2),
+.board:nth-child(3) {
+  border-top: none !important;
+}
+.board:nth-child(7),
+.board:nth-child(8),
+.board:nth-child(9) {
+  border-bottom: none !important;
+}
+.board:nth-child(7),
+.board:nth-child(1),
+.board:nth-child(4) {
+  border-left: none !important;
+}
+.board:nth-child(3),
+.board:nth-child(6),
+.board:nth-child(9) {
+  border-right: none !important;
+}
